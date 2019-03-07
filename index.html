@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple Calculator</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<img src="images/calculator.png" alt="Bob's Simple Calculator" title="Bob's Simple Calculator">
+		<div>
+			<form class="center" action="calc.php" method="get">
+				
+				<p>First Number: <input type="text" name="n1"></p>
+				<p>Second Number: <input type="text" name="n2"></p>
+				<p>Operation: <select name="opp" id="">
+								<option value="add">Add The Numbers Together</option>
+								<option value="sub">Subtract Second Number From First Number</option>
+								<option value="mult">Multiply The Numbers Together</option>
+								<option value="div">Divide First Number By The Second Number</option>
+								<option value="pow">Take The First Number To The Second Number's Power</option>
+						   </select></p>
+					<p><input type="submit" value="Do Caluclation"></p>
+			</form>
+		</div>
+	</body>
+</html>
